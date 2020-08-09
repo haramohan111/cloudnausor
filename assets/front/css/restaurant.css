@@ -1,0 +1,282 @@
+body{overflow-x:hidden;}
+/*.login_rest input[type=text]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}*/
+.login_rest input[type=password] {
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.navbar-brand{padding: 0 !important;}
+/* Set a style for all buttons */
+.login_rest .rest_close {
+  background-color: #b47920;
+  color: white;
+  padding: 10px 20px;
+   float: left;
+  border: none;
+  cursor: pointer;
+}
+.login_rest a{color: #fff;}
+.login_rest a:hover{color: #b47920;text-decoration: none}
+.login_rest button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.login_rest .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.login_rest .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.login_rest img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+.login_rest span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.login_rest .modal-content {
+    margin: 30px;
+    background: #000000ad;
+    color: #fff;
+}
+.login_rest .modal-dialog {
+    margin: 10px auto;
+}
+/* The Close Button (x) */
+.login_rest .close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.login_rest .rest_log {
+    background-color: #e39200;
+}
+.login_rest .close:hover,
+.close:focus {
+  color: #e39200;
+  cursor: pointer;
+}
+.login_rest .input-group-addon {
+		max-width: 42px;
+		text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+	}
+/* Add Zoom Animation */
+.login_rest .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+/*=================================================SIGN PAGE CSS ======================================================*/
+.rest_signform .form-control, .form-control:focus, .input-group-addon {
+		border-color: #e1e1e1;
+	}
+    .rest_signform .form-control, .btn {        
+        border-radius: 3px;
+    }
+	.rest_signform .signup-form {
+		/*width: 390px;*/
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+    .rest_signform .signup-form form {
+		color: #fff;
+		border-radius: 5px;
+    	margin-bottom: 15px;
+        background: #151515b8;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+.rest_signform .signup-form p{font-size: 13px;text-align: center}
+	.rest_signform .signup-form h2 {
+		color: #fff;
+		font-weight: bold;
+        margin-top: 0;
+        text-align: center;
+    }
+    .rest_signform .signup-form hr {
+        margin: 0 -30px 20px;
+    }
+	.rest_signform .signup-form .form-group {
+		margin-bottom: 20px;
+	}
+	.rest_signform .signup-form label {
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.rest_signform .signup-form .form-control {
+		min-height: 38px;
+        border: 1px solid #b88521;
+		box-shadow: none !important;
+        border-top-left-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+	}	
+	.rest_signform .signup-form .input-group-addon {
+		max-width: 42px;
+		text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+	}
+	.rest_signform .signup-form input[type="checkbox"] {
+		margin-top: 2px;
+	}   
+    .rest_signform .signup-form .btn{        
+        font-size: 16px;
+		background: #c37806;
+		border: none;
+		min-width: 140px;
+    }
+  .rest_signform .end_sign{text-align: center}
+
+	.rest_signform .signup-form .btn:hover, .signup-form .btn:focus {
+		background: #c37806;
+        outline: none;
+	}
+	.rest_signform .signup-form a {
+		color: #fff;	
+		text-decoration: underline;
+	}
+	.rest_signform .signup-form a:hover {
+		text-decoration: none;
+	}
+	.rest_signform .signup-form form a {
+		color: #c37806;
+		text-decoration: none;
+	}	
+	.rest_signform .signup-form form a:hover {
+		text-decoration: underline;
+	}
+	.rest_signform .signup-form .fa {
+		font-size: 21px;
+	}
+	.rest_signform .signup-form .fa-paper-plane {
+		font-size: 18px;
+	}
+	.rest_signform .signup-form .fa-check {
+		color: #fff;
+		left: 17px;
+		top: 18px;
+		font-size: 7px;
+		position: absolute;
+	}
+
+.rest_catering {
+    background-color: #ffb124;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 30px;border-radius: 10px;
+}
+.rest_catering h2{color:#fff;}
+.rest_catering a{color: #fff;text-decoration: none;}
+.rest_catering a:hover{color:#000;text-decoration: none; }
+.rest_bookform option{color: #000}
+.main-bg-book {
+    background-repeat: no-repeat;
+    background-image: url(../images/gallery/back_ground_img.png);}
+.rest_bookform .form-control{    color: #fff;
+    background-color: #9a622605;background-image:none;border: 1px solid #ffffff;}
+.rest_bookform .end_sign {
+    text-align: center;
+}
+.rest_bookform{color: #fff;text-align: center}
+.rest_bookform .booktable {background-color: #00000005;border: 1px solid #fff;}
+.rest_bookform .booktable:active:focus{background-color: #f2b743;border:1px solid #f2b743;}
+.rest_catering_button {background-color: #000;color: #fff;border: 1px solid #000;}
+
+ .main-bg-soups{background-image:url(../images/gallery/soups-bg.jpg)}
+  .rest-product tbody {background-color: #0000008f;color: #fff;}
+  .rest-product thead { color: #f2af40; background-color: #191919;}
+  .rest-product  td input { width: 67px;color:#000;}
+  .rest-product .table>tbody>tr>td{padding-top:5px !important;padding-bottom:5px !important;   border: 1px solid #000;}
+  .rest-product .add-cart { background-color: #f2b743; padding: 10px 40px; margin: 10px;}
+    .main-bg-biryani{background-image:url(../images/gallery/bg-biryani.jpg);background-repeat:no-repeat;}
+    .main-bg-appet{background-image:url(../images/gallery/bg-appet.jpg);background-repeat:no-repeat;}
+    .main-bg-roti{background-image:url(../images/gallery/bg-roti.jpg);background-repeat:no-repeat;}
+    .main-bg-salad{background-image:url(../images/gallery/bg-salad.jpg);background-repeat:no-repeat;}
+   .cart_quantity_button {display: inline-flex;}
+    .cart_quantity_button .value-button { color: #fff; font-size: 10px; padding: 1px 14px 0px 14px; border-radius: 5px;
+    background: #f2af40;border: 1px solid #f1aa3d;cursor:pointer;}
+.order-progress {padding: 20px;background: #000;color: #fff;border-radius: 10px;text-align: center;}
+.cart-list-unstyled.mb-4 li { padding: 10px;}.procc-check {background-color: #fff;}.user-add {
+    margin-top: 94px; background-color: #000000b8; padding: 30px;  color: #fff;}.user-add .card-header {
+    text-align: center;  border-bottom: 1px solid #fff;  padding: 10px;  margin-bottom: 10px; font-size: 24px;}.add_page_user {
+    background-color: #f39707; width: 100%;}
+.rest-ship button {background-color: #f39707; padding: 4px 11px; font-size: 14px; border-radius: 6px; border: 2px solid #f39707;}
+#order-succe { background-color: #0b0b0b; padding: 14px 30px; color: #fff;}
+#order-succe h1{color: #f1ad3f;}.order-customer { background-color: #f2b743; font-size: 17px; color: #fff; padding: 10px; border-radius: 5px;}
+#order-succe a:hover { text-decoration: none;}
+.check-box-select {
+    margin-top: 89px;
+    display: inline-flex;
+    width: 100%;padding: 20px 40px;
+    background-color: #000;
+}.check-box-select .custom-control.custom-radio {
+    margin: 10px 17px;
+    color: #fff;
+    font-size: 21px;
+}.ch-er{margin-bottom: 20px !important;}.ch-er .nav-tabs>li{margin-right: 15px !important;}
+/*================================================== MEDIA QUIRIES=================================================================*/
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .login_rest span.psw {
+     display: block;
+     float: none;
+  }
+  .login_rest .cancelbtn {
+     width: 100%;
+  }
+}   
+.head_log {margin-top:6px;
+    background-color: #f2b743;
+    border-color: #f3bd46;
+    padding: 2px 15px;
+}  
+    .head_log:focus{border-color: #f3bd46;}   
+@media screen and (max-width: 640px){
+    .logo{width:unset !important;}
+}    
+    
+    
+    
+    
+    
+    
+    
