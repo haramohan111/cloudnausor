@@ -10,3 +10,5 @@ frontend
 http://localhost/codeigniter/cloudnausor/login
 u-9556213317
 p-123123
+
+sql folder is root dirictory of project folder
